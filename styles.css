@@ -10,6 +10,7 @@ button {
     color: burlywood;
     padding-top: 34px;
     transform: rotate(180deg);
+    margin: 10px;
 }
 
 .title{
@@ -72,5 +73,15 @@ li{
     100% {
       visibility: visible;
     }
+  }
+
+  table, th, td {
+    border: 1px inset black;
+    border-collapse: collapse;
+    width: 400px;
+  }
+  th, td {
+    background-color: #4B371C;
+    color: white;
   }
 
