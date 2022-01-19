@@ -4,4 +4,53 @@ html {
 
 button {
     background-color: chartreuse;
+    border: solid;
+    border-color: chocolate;
+    border-radius: 3px;
+    color: burlywood;
+    padding-top: 34px;
+    transform: rotate(180deg);
+}
+
+.title{
+    color: #31668A;
+    text-align: right;
+    transform: rotate(21deg);
+}
+
+img{
+    border-radius: 35%;
+    border: solid;
+    border-color: royalblue;
+    border-width: 50px;
+    float: left;   
+}
+
+img:hover{
+    transform: rotate(71deg);
+    border-color: silver;
+}
+
+li:nth-child(1){
+    color: goldenrod;
+    font-size: 20px;
+    transform: rotate(200deg);
+}
+
+li:nth-child(3){
+    color: purple;
+    font-size: 30px;
+    transform: rotate(70deg);
+}
+
+li:nth-child(3){
+    color: white;
+    font-size: 40px;
+    transform: rotate(300deg);
+}
+
+li{
+   padding: 20px;
+   transform:rotate(7deg);
+   color: orangered;
 }
