@@ -54,3 +54,23 @@ li{
    transform:rotate(7deg);
    color: orangered;
 }
+
+.blinky{
+    color: yellow;
+    text-align: center;
+    border: dashed green;
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+
